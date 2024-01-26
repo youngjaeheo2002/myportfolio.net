@@ -35,3 +35,31 @@ Notifications: Keep users informed about updates to their portfolios, such as ne
 Support and Help Center: Provide comprehensive support resources, including FAQs, tutorials, and a help center, to assist users in creating and managing their portfolios.
 
 Remember to prioritize user experience and ensure that the platform is user-friendly, visually appealing, and offers valuable features to help users showcase their work effectively.
+
+# Setting Up
+first, clone the repository using the following
+
+```bash
+git clone https://github.com/youngjaeheo2002/myportfolio.net.git
+```
+
+Then, 
+
+```bash
+cd myportfolio.net
+cd server
+touch config.env
+```
+
+Then, write this in the file:
+```dotenv
+#config.env
+ATLAS_URI=mongodb+srv://<username>:<password>@myportfolionet.oja8epk.mongodb.net/?retryWrites=true&w=majority"
+PORT=5000
+```
+
+I'll give you the login
+
+
+
+
